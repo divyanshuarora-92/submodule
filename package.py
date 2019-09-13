@@ -14,7 +14,7 @@ def getpackage(module=None):
     name = root.name
 
     # Package Tags
-    tags = ['3d', 'maya']
+    tags = ['3d', 'maya', 'newversion']
 
     # Package instance( Name, Environ(), Path, [Tags] )
     pkg = Package(name, None, root, tags)
